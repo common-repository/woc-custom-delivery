@@ -1,0 +1,134 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+@import url('faq.css');
+@import url('pluginbazar_plugins.css');
+
+
+
+
+/* Column Design */
+.wcd_shortcode, .wcd_status, .wcd_date { text-align:center; }
+
+.wcd_shortcode input {
+    color: #7f7d82;
+    background-color: #ffffff;
+    text-align: center;
+    border-radius: 3px;
+}
+
+.wcd_status .wcd_column_status {
+    font-size: 15px;
+    background: #7f7d82;
+    display: inline-block;
+    padding: 5px 20px;
+    color: #fff;
+    border-radius: 3px;
+}
+
+/* Column Design End */
+
+
+.adding_slack {
+	opacity: 0.4;
+}
+.wcd_single_sorter {
+    display: inline-block;
+    margin-left: 12px;
+    font-size: 16px;
+    cursor: all-scroll;
+}
+
+
+.wcd_section_status .wcd_back_shop_status {
+    font-size: 14px;
+    font-style: italic;
+    color: #fff;
+    padding: 8px 16px;
+    text-align: center;
+}
+
+.wcd_section_status .wcd_shop_open {
+    background: #1CA361;
+}
+
+.wcd_section_status .wcd_shop_close {
+    background: #DE5145;
+}
+
+
+.wcd_sections_list{}
+
+.wcd_sections_list .entries {
+  padding-top: 20px;
+}
+.wcd_sections_list .entry {
+  background: none repeat scroll 0 0 rgba(153, 153, 153, 0.2);
+  margin: 5px 0;
+  padding: 5px;
+  position: relative;
+}
+
+.wcd_sections_list .header {
+  position: relative;
+}
+
+.wcd_sections_list .header .section-display {
+  float: right;
+  margin-right: 20px;
+  margin-top: 2px;
+  position: relative;
+}
+
+.wcd_sections_list .entry .entry-remove, .wcd_sections_list  .section-remove{
+  background: none repeat scroll 0 0 rgb(249, 91, 14);
+  cursor: pointer;
+  height: 20px;
+  position: absolute;
+  right: 0;
+  text-align: center;
+  top: 0;
+  width: 20px;
+}
+
+.wcd_sections_list .ui-sortable-helper {
+  border: 1px dashed rgb(153, 153, 153);
+}
+
+
+
+.wcd_btn_insert_input {
+    width: 180px;
+    background: #bbb;
+    padding: 5px 0;
+    text-align: center;
+    font-weight: bold;
+    float: right;
+    margin-top: 10px;
+	cursor:pointer;
+}
+
+
+
+.wcd_single_schedule {
+    background-color: #eee;
+    padding: 2px 35px !important;
+}
+
+.wcd_single_schedule label {
+    vertical-align: baseline;
+}
+
+
+.wcd_delete_single_schedule {
+    display: inline-block;
+    margin: 5px 5px;
+    font-size: 18px;
+    cursor: pointer;
+	color:#DE5246;
+}
+
+.wcd_delete_single_schedule:hover {
+    color:#b90707;
+}

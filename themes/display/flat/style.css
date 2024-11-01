@@ -1,0 +1,68 @@
+@charset "utf-8";
+/* CSS Document */
+
+span.wcd_error_messge {
+    color: red;
+    font-size: 22px;
+}
+
+.wcd_display_flat {}
+
+.wcd_display_flat  li{
+	list-style:none;
+}
+
+
+.wcd_display_flat .wcd_display_each.wcd_header_text {
+    color: #083EA5;
+	padding: 5px;
+	font-size:18px;
+	cursor:pointer;
+	margin-left:0 !important;
+	padding-left: 1px;
+    padding-right: 1px;
+}
+
+
+.wcd_display_flat .wcd_display_each {
+    background-color: #D2D2D2;
+    color: #083EA5;
+    width: 280px;
+    text-align: center;
+	padding: 5px;
+    border-bottom: 1px solid #fff;
+	font-size:14px;
+	cursor:pointer;
+	margin-left:0 !important;
+	padding-left: 1px;
+    padding-right: 1px;
+}
+
+.wcd_display_flat .wcd_display_each.wcd_active{
+    background: linear-gradient(to bottom, #B8B8B8 0%, #D2D2D2 50%, #B8B8B8 100%);
+	padding-top:10px;
+	padding-bottom:10px;
+	font-weight:bold;
+}
+
+.wcd_display_flat .wcd_display_each.wcd_open{
+	color:#046134;
+}
+
+.wcd_display_flat .wcd_display_each.wcd_close{
+	color:#DE5145;
+}
+
+
+.wcd_display_flat .wcd_display_each .fa-shopping-cart{
+    float: left;
+    vertical-align: middle;
+	font-size: 18px;
+}
+
+.wcd_display_flat .wcd_display_each .fa-check-circle,
+.wcd_display_flat .wcd_display_each .fa-times-circle{
+    float: right;
+    vertical-align: middle;
+	font-size: 18px;
+}

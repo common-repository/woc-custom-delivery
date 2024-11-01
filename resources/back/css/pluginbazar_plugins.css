@@ -1,0 +1,55 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/* other plugins design */
+
+.pb_other_pluings  a{
+	text-decoration:none !important;
+}
+.pb_other_pluings {
+    background-color: #fff;
+}
+
+.pb_other_plugins_header {
+    text-align: center;
+    background-color: #377FBD;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px 0;
+	cursor:pointer;
+}
+
+.pb_single_item {
+    width: 220px;
+    text-align: center;
+    border: 1px solid #377FBD;
+    margin: 10px;
+	display: inline-block;
+}
+
+
+.pb_plugin_header {
+    font-size: 16px;
+    margin: 10px 0px;
+}
+
+.pb_purchase_premium {
+    background-color: #377FBD;
+    font-size: 17px;
+    margin: 10px 2px;
+    padding: 8px 0;
+    cursor: pointer;
+}
+.pb_purchase_premium  a{
+	color: #fff !important;
+	padding: 4px 30px;
+}
+
+.pb_plugin_content {
+    height: 60px;
+}
+
+
+
+/* other plugins design */

@@ -1,0 +1,21 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+#wcd_delivery_wrap {}
+
+#wcd_delivery_wrap .wcd_delivery_message{
+	
+}
+
+#wcd_delivery_wrap .wcd_delivery_single label{
+	cursor:pointer;
+}
+
+#wcd_delivery_wrap .wcd_delivery_single.disabled{
+	color:#bbb;
+}
+
+
+
+
